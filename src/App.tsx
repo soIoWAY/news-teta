@@ -59,7 +59,7 @@ function App() {
 				<button
 					onClick={() => setSelectedNews(false)}
 					className={`${
-						selectedNews ? 'bg-transparent' : 'bg-yellow-300'
+						selectedNews ? 'bg-transparent' : 'bg-yellow-400'
 					} border-2 border-yellow-500 py-1 w-36 rounded-md font-semibold`}
 				>
 					News
