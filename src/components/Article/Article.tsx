@@ -21,9 +21,9 @@ const Article = ({ article, saveNewHandler, savedNews }: IArticleProps) => {
 			<div className='py-2 px-3'>
 				<div className='border-b border-gray-300 pb-1'>
 					<div>
-						<h2 className='text-xl font-semibold'>{article.title}</h2>
+						<h2 className='text-xl font-semibold'>{article.title || ''}</h2>
 					</div>
-					<p className='mt-2'>{article.description}</p>
+					<p className='mt-2'>{article.description || ''}</p>
 					<a
 						href={article.url || '#'}
 						target='_blank'
